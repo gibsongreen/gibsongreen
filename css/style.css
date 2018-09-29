@@ -1,6 +1,9 @@
 body {
   background-color: lightgrey;
 }
+.title {
+  color:teal;
+}
 h1 {
   color: navyblue;
   text-align: center;
