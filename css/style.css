@@ -1,7 +1,23 @@
 body {
-  background-color: lightblue;
+  background-color: lightgrey;
 }
 h1 {
-  color: white;
+  color: navyblue;
+  text-align: center;
+}
+h2 {
+  color: navyblue;
+  text-align: center;
+}
+h3 {
+  color: navyblue;
+  text-align: center;
+}
+h4 {
+  color: navyblue;
+  text-align: center;
+}
+h5 {
+  color: navyblue;
   text-align: center;
 }
