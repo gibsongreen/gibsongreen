@@ -1,12 +1,12 @@
 body {
-  background-color: lightblue;
+  background-color:green;
 }
 
 h1 {
-  color: white;
+  color:green;
   text align: center;
 }
 p {
-  font-family: Arial;
+  font-family:Helvetica;
   font-size: 20px;
 }
