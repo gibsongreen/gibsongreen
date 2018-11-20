@@ -19,6 +19,9 @@ h3 {
   color: navyblue;
   font-size: 20px;
   text-family: Helvetica;
+  p1 {
+    float: right;
+  }
 }
 h4 {
   color: navyblue;
