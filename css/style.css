@@ -21,6 +21,7 @@ h3 {
   text-family: Helvetica;
   div {
   width: 50%;
+    height: 200px;
     float: right;
   }
 h4 {
