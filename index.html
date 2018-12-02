@@ -1,42 +1,31 @@
 <html> 
-  <head>
-    <html lang="en">
+<head>
     <title> Gibson Green </title>
     <link rel= "stylesheet" type= "text/css" href= "css/style.css">
-  </head>
+</head>
    
-  <body>  
+<body>  
    <canvas id="myCanvas" width="270" height="35" style="border:1px solid #000000;">
 <script>
-     var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-ctx.font = "22px Arial";
-ctx.strokeText("Gibson Green's Portfolio", 15, 25)
-     </script>
-   </canvas>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.font = "22px Arial";
+    ctx.strokeText("Gibson Green's Portfolio", 15, 25)
+</script>
+</canvas>
 <br><br>
-  <div id="EducationalExperience" class="tabcontent">
-      <p> <strong>Educational Experience</strong></p>
-    <p> I graduated from Lake Forest High School back in 2017, in Lake Forest Illinois. Currently, I am a sophomore
-    at Florida Gulf Coast University (Class of 2021). I have presented at The 232rd American Astronimcal Society, where 
-    I presented Exoplanet Light Curve findings.</p>
 
-    <img src="https://image.ibb.co/im7LKU/Light-Curve.jpg" alt= "image of Exoplanet Light Curve Gibson Green Found"
-          height="220" width="370"/>   
-          <audio controls>
-            <source src="https://github.com/gibsongreen/gibsongreen/blob/master/Recording.m4a?raw=true" type="audio/mpeg">
-          </audio>
-
-    <p> List of Completed Collegiate Classes Pertaining to Software Engineering Major: </p>
-    <ul>
-      <li><strong>Mathematics</strong>: Calculus I, II and III(currently enrolled)</li>
-      <li><strong>Physics</strong>: General Physics I w/ lab, General Physics II w/lab(currently enrolled)</li>
-      <li><strong>English</strong>: Composition I and II, Humanities(currently enrolled) </li>
-      <li><strong>Engineering</strong>: Honors Intro to Engineering </li>
-      </div>
-
-    <div id="AboutMe" class="tabcontent">
-      <p> <strong>About Me</strong></p>
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'AboutMe')">About Me</button>
+    <button class="tablinks" onclick="openTab(event, 'EducationalExperience')">Educational Experience</button>
+    <button class="tablinks" onclick="openTab(event, 'TopAccomplishments')">Top Accomplishments</button>
+    <button class="tablinks" onclick="openTab(event, 'WorkSamples')">Work Samples</button>
+    <button class="tablinks" onclick="openTab(event, 'OtherProfiles')">Other Profiles</button>
+</div>
+        
+<div id="AboutMe" class="tabcontent">
+          <p> <strong>About Me</strong></p>
+          <img src="https://image.ibb.co/etVPeU/AAS-223.jpg" alt= "image of Gibson Green at 232nd AAS Conference Presenting" height="220" width="165"/>
     <p>Hello, my name is Gibson Green and I am currently a sophomore attending Florida Gulf Coast University. 
       I am on schedule to graduate by the year 2021. I am a Software Engineering Major, and, on my free
       time, I am a Research Assistant on campus for Dr. Derek Buzasi. Currently, I am researching stellar bodies in 
@@ -51,47 +40,68 @@ ctx.strokeText("Gibson Green's Portfolio", 15, 25)
       In my free time I love watching TedTalks about anything having to do with Futurism, I play Intramural Basketball and follow
       anything that has to do with basketball, I love playing video games that include Fortnite, NBA 2k19, The
       Elder Scrolls series, etc. 
-       </p>
+    </p>
+</div>
+        
+<div id="EducationalExperience" class="tabcontent">
+    <p> <strong>Educational Experience</strong></p>
+    <p> I graduated from Lake Forest High School back in 2017, in Lake Forest Illinois. Currently, I am a sophomore
+          at Florida Gulf Coast University (Class of 2021). I have presented at The 232rd American Astronimcal Society, where 
+          I presented Exoplanet Light Curve findings.</p>
+      
+    <img src="https://image.ibb.co/im7LKU/Light-Curve.jpg" alt= "image of Exoplanet Light Curve Gibson Green Found"
+                height="220" width="370"/>   
+    <audio controls>
+      <source src="https://github.com/gibsongreen/gibsongreen/blob/master/Recording.m4a?raw=true" type="audio/mpeg">
+    </audio>
+      
+    <p> List of Completed Collegiate Classes Pertaining to Software Engineering Major: </p>
+      <ul>
+       <li><strong>Mathematics</strong>: Calculus I, II and III</li>
+       <li><strong>Physics</strong>: General Physics I w/ lab, General Physics II w/lab</li>
+       <li><strong>English</strong>: Composition I and II, Humanities </li>
+       <li><strong>Engineering</strong>: Honors Intro to Engineering </li>
 </div>
 
-        <div id= "WorkSamples" class"tabcontent">
-          <p> <strong>Work Samples</strong></p>
-       <p> Scratch Soccer Video Game: </p> <a href="https://scratch.mit.edu/projects/243584865/">link</a>
-       <p> Group Project: Automatic Ball Launcher </p>
-       <video height="250" width="440" controls>
-        <source src="media/Tennis Ball Launcher.mp4" type="video/mp4">
+<div id="TopAccomplishments" class="tabcontent">
+    <p> <strong>Top Accomplishments</strong></p>
+     <ul>
+      <li> Honors College Member</li>
+      <li> Honors College Mentor </li>
+      <li> Phi Delta Theta Vice President (Spring 2019-Fall 2019)</li>
+      <li> Phi Delta Theta Philanthropy Chairman (Fall 2018)</li>
+      <li> Phi Delta Theta Community-Service Chairman (Spring 2018)</li>
+      <li>Phi Eta Sigma: National Honor Society Member (Inducted May 2018)</li>
+      <li> National Society of Leadership and Sucess Member (Inducted Fall 2018)</li>
+    </ul>
+</div>
+
+<div id="WorkSamples" class="tabcontent">
+    <p> <strong>Work Samples</strong></p>
+    <p> Scratch Soccer Video Game: </p> <a href="https://scratch.mit.edu/projects/243584865/">link</a>
+    <p> Group Project: Automatic Ball Launcher </p>
+    <video height="250" width="440" controls>
+      <source src="media/Tennis Ball Launcher.mp4" type="video/mp4">
       Your browser does not support the video tag.
-               </video>
+    </video>
         <!-- <p> The first image is the light curve of the candadite planet that Laura Ferell and I discovered in 
              Honors Planet Hunters FTIC Honors course. The second image is of Gibson Green presenting at the 232nd
-             AAS Conference in Denver, Colorado. (June, 2018) --> <br> <br> </div>
-           
-            <div id="TopAccomplishments" class"tabcontent">
-         <p> <strong>Top Accomplishments</strong></p>
-       <ul>
-         <li> Honors College Mentor </li>
-         <li> Honors College Member</li>
-         <li> Phi Delta Theta Philanthropy Chairman</li>
-         <li> Phi Delta Theta Community-Service Chairman</li>
-         <li>Phi Eta Sigma (National Honor Society Member)</li>
-         <li> National Society of Leadership and Sucess Member</li>
-       </ul>
-       <img src="https://image.ibb.co/etVPeU/AAS-223.jpg" alt= "image of Gibson Green at 232nd AAS Conference Presenting" height="220" width="165"/>
-       </div>
-    
-       <div id="OtherProfiles" class"tabcontent">
-        <p> <strong>Other Profiles</strong></p>
-       <p> Click the following link to go to Gibson Green's Github Profile Page</>
-       <a href="https://github.com/gibsongreen">here</a> 
-     <p> Click the following link to go to Gibson Green's CodeAcademy Profile Page</>
-       <a href="https://www.codecademy.com/gibsongreen">here</a> 
-    
-    <embed src="gibsongreen/media/Field Report.pdf" height="220" width="165">
-      
-        </div>
-  
+             AAS Conference in Denver, Colorado. (June, 2018) --> <br> <br> 
+</div>
+
+<div id="OtherProfiles" class="tabcontent">
+              <p> <strong>Other Profiles</strong></p>
+              <p> Click the following link to go to Gibson Green's Github Profile Page</>
+              <a href="https://github.com/gibsongreen">here</a> 
+              <p> Click the following link to go to Gibson Green's CodeAcademy Profile Page</>
+              <a href="https://www.codecademy.com/gibsongreen">here</a> 
+              <embed src="media/Field Report" type="pdf">
+                 <!--
+                 <iframe class="scribd_iframe_embed" title="Field Report Converted" src="https://www.scribd.com/embeds/392826259/content?start_page=1&view_mode=scroll&show_recommendations=false&access_key=key-N2LE3d2BD4611sWzzGQO" data-auto-height="true" data-aspect-ratio="null" scrolling="no" width="33%" height="440" frameborder="0"></iframe> 
+               -->
+</div>
+
     <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
     <script src= 'js/main.js'></script>
-  </body>
+</body>
 </html>
-    
