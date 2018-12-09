@@ -14,10 +14,10 @@ function openTab(evt, cityName) {
 document.getElementById("defaultOpen").click();
 
 //Caesar Cipher
-var cars = String.fromCharCode(67+3,65+3,84+3);
+var ciph = String.fromCharCode(67+3,65+3,84+3);
 var text = "";
 var i;
-for (i = 0; i < cars.length; i++) {
-  text += cars[i] + "<br>";
+for (i = 0; i < ciph.length; i++) {
+  text += ciph[i] + "<br>";
 }
 document.getElementById("demo").innerHTML = text;
