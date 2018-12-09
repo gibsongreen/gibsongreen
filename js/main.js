@@ -12,3 +12,12 @@ function openTab(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 document.getElementById("defaultOpen").click();
+
+//Caesar Cipher
+var cars = String.fromCharCode(67+3,65+3,84+3);
+var text = "";
+var i;
+for (i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
