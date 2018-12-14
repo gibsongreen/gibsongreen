@@ -1,3 +1,5 @@
+//These comments were made by Gibson Green
+//function that creates clickable tabs, displays at top of website
 function openTab(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
