@@ -5,7 +5,8 @@
     <link rel= "stylesheet" type= "text/css" href= "css/style.css">
 </head>
    
-<body>  
+<body> 
+      <!-- This is the Title to the website displayed in canvas -->
    <canvas id="myCanvas" width="270" height="35" style="border:1px solid #000000;">
 <script>
     var c = document.getElementById("myCanvas");
@@ -16,6 +17,7 @@
 </canvas>
 <br><br>
 
+     <!-- Tabs link to Java, each section of website in different tabs -->
 <div class="tab">
     <button class="tablinks" onclick="openTab(event, 'AboutMe')" id="defaultOpen">About Me</button>
     <button class="tablinks" onclick="openTab(event, 'EducationalExperience')">Educational Experience</button>
@@ -24,7 +26,7 @@
     <button class="tablinks" onclick="openTab(event, 'OtherProfiles')">Other Profiles</button>
     <button class="tablinks" onclick="openTab(event, 'WebsiteAccess')">Accessibility and Usability</button>
 </div>
-        
+       
 <div id="AboutMe" class="tabcontent">
           <p> <strong>About Me</strong></p>
           <img src="https://image.ibb.co/etVPeU/AAS-223.jpg" alt= "image of Gibson Green at 232nd AAS Conference Presenting" height="220" width="165"/>
@@ -52,7 +54,8 @@
           I presented Exoplanet Light Curve findings.</p>
       
     <img src="https://image.ibb.co/im7LKU/Light-Curve.jpg" alt= "image of Exoplanet Light Curve Gibson Green Found"
-                height="220" width="370"/>   
+                height="220" width="370"/> 
+     <!-- Audio for the image displayed, gives description of image -->
     <audio controls>
       <source src="https://github.com/gibsongreen/gibsongreen/blob/master/Recording.m4a?raw=true" type="audio/mpeg">
     </audio>
@@ -78,6 +81,7 @@
     </ul>
 </div>
 
+     <!-- Work samples contain several different linked project I have worked on -->
 <div id="WorkSamples" class="tabcontent">
     <p> <strong>Work Samples</strong></p>
     <p> Scratch Soccer Video Game: </p> <a href="https://scratch.mit.edu/projects/243584865/">link</a>
@@ -123,6 +127,7 @@
      <iframe class="scribd_iframe_embed" title="Field Report Converted" src="https://www.scribd.com/embeds/392826259/content?start_page=1&view_mode=scroll&show_recommendations=false&access_key=key-N2LE3d2BD4611sWzzGQO" data-auto-height="true" data-aspect-ratio="null" scrolling="no" width="33%" height="440" frameborder="0"></iframe>            
 </div>
 
+     <!-- Added JQuery for future use in editting website -->
     <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
     <script src= 'js/main.js'></script>
 </body>
