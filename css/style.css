@@ -1,9 +1,12 @@
+/* These comments were made by Gibson Green */
 body {
   background-color: lightgrey;
 }
 .title {
   color:teal;
 }
+/* Educational experience, about me, work samples , top accomplisments, other profiles: all have same designed pages, reshaped to their
+style*/
 #EducationalExperience {
   border: 1px solid black;
      padding: 10px;
@@ -18,6 +21,7 @@ body {
      height: 625px;
      text-align: justify;
  }
+/* Images display center in pages */
  img {
     display: block;
     margin-left: auto;
@@ -44,7 +48,7 @@ body {
      height: 250px;
      text-align: justify;
 }
-
+/* gives tabs colors to match rest of webpage */
 .tab {
   overflow: hidden;
   border: 1px solid black;
