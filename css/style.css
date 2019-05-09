@@ -1,58 +1,63 @@
-/* These comments were made by Gibson Green */
 body {
-  background-color: lightgrey;
+  background-color: aliceblue;
 }
 .title {
-  color:teal;
+  color: aliceblue;
 }
-/* Educational experience, about me, work samples , top accomplisments, other profiles: all have same designed pages, reshaped to their
-style*/
 #EducationalExperience {
-  border: 1px solid black;
-     padding: 10px;
+  padding: 10px 300px 10px 400px;
      width: 775px;
      height: 515px;
-     text-align: justify;        
+     text-align: justify;  
+     color: rgb(51, 51, 88);      
+}
+p{
+  font-size: 16px;
+  color: rgb(10, 10, 55);
+}
+h1{
+  font-size: 24px;
+  color: rgb(51, 51, 88);
 }
 #AboutMe {
-  border: 1px solid black;
-     padding: 10px;
+     padding: 10px 300px 10px 400px;
      width: 639px;
      height: 625px;
      text-align: justify;
+     color: rgb(51, 51, 88);
  }
-/* Images display center in pages */
  img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 #WorkSamples {
-  border: 1px solid black;
-     padding: 10px;
+     padding: 10px 300px 10px 400px;
      width: 457px;
      height: 415px;
      text-align: justify;
+     color: rgb(51, 51, 88);
 } 
 #TopAccomplishments {
-    border: 1px solid black;
-       padding: 10px;
+  
+  padding: 10px 300px 10px 400px;
        width: 535px;
        height: 225px;
        text-align: justify;
+       color: rgb(51, 51, 88);
 }
 #OtherProfiles {
-  border: 1px solid black;
-     padding: 10px;
+  padding: 10px 300px 10px 400px;
      width: 550px;
-     height: 250px;
+     height: 150px;
      text-align: justify;
+     color: rgb(51, 51, 88);
 }
-/* gives tabs colors to match rest of webpage */
+
 .tab {
   overflow: hidden;
   border: 1px solid black;
-  background-color: lightgrey;
+  background-color: lightsteelblue;
 }
 
 /* Style the buttons inside the tab */
@@ -64,28 +69,27 @@ style*/
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: rgb(128, 150, 179);
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: rgb(150, 176, 209);
 }
 
 /* Style the tab content */
- /* Fading effect takes 1 second, Go from zero to full opacity */
 .tabcontent {
   display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
-  animation: fadeEffect 1s; 
-}
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  /* Go from zero to full opacity */
 @keyframes fadeEffect {
   from {opacity: 0;}
   to {opacity: 1;}
