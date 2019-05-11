@@ -1,40 +1,79 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<html> 
 <head>
     <title> Gibson Green </title>
     <link rel= "stylesheet" type= "text/css" href= "css/style.css">
 </head>
    
-<body> 
-     <!-- These are Gibson Green's comments-->
-      <!-- This is the Title to the website displayed in canvas -->
-   <canvas id="myCanvas" width="270" height="35" style="border:1px solid #000000;">
+<body>  
+   <canvas id="myCanvas" width="410" height="40" style="border:1px rgb(7, 80, 148);">
 <script>
     var c = document.getElementById("myCanvas");
     var ctx = c.getContext("2d");
-    ctx.font = "22px Arial";
-    ctx.strokeText("Gibson Green's Portfolio", 15, 25)
+    ctx.font = '30px Times New Roman';
+    ctx.fillStyle='rgb(10,40,200)';
+    ctx.strokeStyle='rgb(12,20,110)';
+    ctx.shadowBlur = 10;
+    ctx.shadowColor = "azure";
+    ctx.strokeText("Gibson Green: Portfolio Website", 10, 35);
 </script>
 </canvas>
 <br><br>
 
-     <!-- Tabs link to Java, each section of website in different tabs -->
 <div class="tab">
     <button class="tablinks" onclick="openTab(event, 'AboutMe')" id="defaultOpen">About Me</button>
     <button class="tablinks" onclick="openTab(event, 'EducationalExperience')">Educational Experience</button>
     <button class="tablinks" onclick="openTab(event, 'TopAccomplishments')">Top Accomplishments</button>
     <button class="tablinks" onclick="openTab(event, 'WorkSamples')">Work Samples</button>
-    <button class="tablinks" onclick="openTab(event, 'OtherProfiles')">Other Profiles</button>
+    <button class="tablinks" onclick="openTab(event, 'OtherProfiles')">Contact</button>
     <button class="tablinks" onclick="openTab(event, 'WebsiteAccess')">Accessibility and Usability</button>
+    <button class="tablinks" onclick="openTab(event, 'WebsiteAccess')">Fraternity Involvment</button>
+    <button class="tablinks" onclick="openTab(event, 'WebsiteAccess')">Photography</button>
 </div>
-       
-<div id="AboutMe" class="tabcontent">
-          <p> <strong>About Me</strong></p>
         
-    <img src="media/Stellargroup2019.jpg" alt= "image of Gibson Green at 232nd AAS Conference Presenting" height="220" width="165"/>
+<div id="AboutMe" class="tabcontent">
+          <h1> About Me </h1>
 
-    <img src="https://image.ibb.co/etVPeU/AAS-223.jpg" alt= "image of Gibson Green at 232nd AAS Conference Presenting" height="220" width="165"/>
-    <p>Hello, my name is Gibson Green and I am currently a sophomore attending Florida Gulf Coast University. 
+          <img src="media/Stellargroup2019.jpg" alt= "image of Gibson Green at 232nd AAS Conference Presenting" height="220" width="165"/>
+           <img src="media/pdtxigroup.jpg" alt= "image of Gibson Green at 232nd AAS Conference Presenting" height="220" width="165"/>
+            <img src="media/mentorheadshot.jpg" alt= "image of Gibson Green at 232nd AAS Conference Presenting" height="220" width="165"/>
+          <img src="https://image.ibb.co/etVPeU/AAS-223.jpg" alt= "image of Gibson Green at 232nd AAS Conference Presenting" height="220" width="165"/>
+          
+          <div class="dropdown">
+            <button class="dropbtn">Stellar Research</button>
+            <div class="dropdown-content">
+              <a href="#">Under Dr. Buzasi, I research using the program gPhoton. gPhoton is a Python program written to sift through GALEX’s 
+                (Galaxy Evolution Explorer) time and location stamped photon data that was previously unviewable. Using the program, I go through
+                 star sources provided by Dr. Buzasi and develop light curves for the targets. For the Stellar Research team, I have also begun redesigning 
+                 the current fgcstellar.org website.</a>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">Honors College Involvement</button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">Planet Hunters Research</button>
+                <div class="dropdown-content">
+                  <a href="#">My FGCU Honors freshman sequence course titled Planet Hunters was taught by Dr. Derek Buzasi. The first semester developed the class’s 
+                    knowledge of general Astronomical and Astrophysical topics. The second semester followed with a research aspect where the class was split into 
+                    teams of two, and each team analyzed 200 light curves from Kepler’s Campaigns 15 and 16 data using Dr. Buzasi’s AstroDev tool. In doing so,
+                     my teammate and I discovered one candidate exoplanet, one rotating star, and two binary stars. To conclude the course, I represented my class,
+                      as Dr. Buzasi and I travel to Denver for the 232nd American Astronomical Society Conference. We presented our classes discoveries and attended talks throughout the week.</a>
+                
+                </div>
+                <div class="dropdown">
+                  <button class="dropbtn">Phi Delta Theta Florida Xi Involvement</button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+
+          
+          <!-- 
+          <p>Hello, my name is Gibson Green and I am currently a sophomore attending Florida Gulf Coast University. 
       I am on schedule to graduate by the year 2021. I am a Software Engineering Major, and, on my free
       time, I am a Research Assistant on campus for Dr. Derek Buzasi. Currently, I am researching stellar bodies in 
       the realms of AstroPhysics using data collected from the <em>2003 GALEX NASA</em> mission. I am also an Honors College
@@ -50,16 +89,26 @@
       Elder Scrolls series, etc. 
     </p>
 </div>
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+  -->
+</div>
+
         
 <div id="EducationalExperience" class="tabcontent">
-    <p> <strong>Educational Experience</strong></p>
+    <h1> Educational Experience </h1>
     <p> I graduated from Lake Forest High School back in 2017, in Lake Forest Illinois. Currently, I am a sophomore
-          at Florida Gulf Coast University (Class of 2021). I have presented at The 232rd American Astrnomical Society, where 
+          at Florida Gulf Coast University (Class of 2021). I have presented at The 232rd American Astronimcal Society, where 
           I presented Exoplanet Light Curve findings.</p>
       
     <img src="https://image.ibb.co/im7LKU/Light-Curve.jpg" alt= "image of Exoplanet Light Curve Gibson Green Found"
-                height="220" width="370"/> 
-     <!-- Audio for the image displayed, gives description of image -->
+                height="220" width="370"/>   
     <audio controls>
       <source src="https://github.com/gibsongreen/gibsongreen/blob/master/Recording.m4a?raw=true" type="audio/mpeg">
     </audio>
@@ -70,11 +119,10 @@
        <li><strong>Physics</strong>: General Physics I w/ lab, General Physics II w/lab</li>
        <li><strong>English</strong>: Composition I and II, Humanities </li>
        <li><strong>Engineering</strong>: Honors Intro to Engineering </li>
-          </ul>
 </div>
 
 <div id="TopAccomplishments" class="tabcontent">
-    <p> <strong>Top Accomplishments</strong></p>
+    <h1> Top Accomplishments </h1>
      <ul>
       <li> Honors College Member</li>
       <li> Honors College Mentor </li>
@@ -86,13 +134,12 @@
     </ul>
 </div>
 
-     <!-- Work samples contain several different linked project I have worked on -->
 <div id="WorkSamples" class="tabcontent">
-    <p> <strong>Work Samples</strong></p>
+    <h1> Work Samples </h1>
     <p> Scratch Soccer Video Game: </p> <a href="https://scratch.mit.edu/projects/243584865/">link</a>
     <p> Group Project: Automatic Ball Launcher </p>
     <video height="250" width="440" controls>
-      <source src="media/Tennis.mp4" type="video/mp4">
+      <source src="media/Tennis Ball Launcher.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
         <!-- <p> The first image is the light curve of the candadite planet that Laura Ferell and I discovered in 
@@ -101,20 +148,18 @@
 </div>
 
 <div id="OtherProfiles" class="tabcontent">
-              <p> <strong>Other Profiles</strong></p>
-              <p> Click the following link to go to Gibson Green's Github Profile Page</p>
-              <a href="https://github.com/gibsongreen">Github</a> 
-              <p> Click the following link to go to Gibson Green's CodeAcademy Profile Page</p>
-              <a href="https://www.codecademy.com/gibsongreen">CodeAcademy</a>
-              <p> Click the following link to go to Gibson Green's LinkedIn Profile Page</p>
-              <a href="https://www.linkedin.com/in/gilbertgreeniii/">LinkedIn</a>
-    <svg width="100" height="100">
-  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="blue" />
-</svg>
+    <h1> Other Profiles </h1>
+              <p> Click the following link to go to Gibson Green's Github Profile Page</>
+              <a href="https://github.com/gibsongreen">here</a> 
+              <p> Click the following link to go to Gibson Green's CodeAcademy Profile Page</>
+              <a href="https://www.codecademy.com/gibsongreen">here</a> 
+              <embed src="media/Field Report" type="pdf">
+                 <!--
+                 <iframe class="scribd_iframe_embed" title="Field Report Converted" src="https://www.scribd.com/embeds/392826259/content?start_page=1&view_mode=scroll&show_recommendations=false&access_key=key-N2LE3d2BD4611sWzzGQO" data-auto-height="true" data-aspect-ratio="null" scrolling="no" width="33%" height="440" frameborder="0"></iframe> 
+               -->
 </div>
-    
 <div id="WebsiteAccess" class="tabcontent">
-  <p><strong>Website Accessibility & Usability</strong></p>
+    <h1> Website Accessibility & Usability </h1>
   <p>Here in Gibson Green's Portfolio Website, the goal was display was knowledge of the following Computer Languages:</p>
   <ul>
     <li>HTML</li>
@@ -125,27 +170,11 @@
     Here are some of the examples of topics I learned over the course of the semester:</p>
   <ul>
     <li>embedding videos, images and files into HTML</li>
-      <li>Adding links to other websites, SVG files embedding, pdf embedding in HTML</li>
     <li>Using Javascript to have tabs and divide different sections for the website</li>
-      <li>Adding a Cesar Cipher to encrypt parts of the website, through JavaScript</li>
     <li>Adding stlying to the website using CSS and creating boxed text</li>
-      <li>Changing Coloring, editting text (headings, titles, etc.) & other textual CSS Changes</li>
-      <li>Free reign of creativity and effort display in Website</li>
   </ul>
-    <p>This website is designed to be easy to use and accessible to everyone. Audio description of an image are included to give a
-        hearing-aid to the website. There is a lot of visual representation of information. The text is written simply, everything 
-        easy to read and easy to understand. </p>
-    
-    <p> Here is a pdf displayed in HTML of my Field Report Assignment in my Introduction to Computer Science Course:</p>
-     <p  style="   margin: 12px auto 6px auto;   font-family: Helvetica,Arial,Sans-serif;   font-style: normal;   font-variant: normal;   font-weight: normal;   font-size: 14px;   line-height: normal;   font-size-adjust: none;   font-stretch: normal;   -x-system-font: none;   display: block;"   ><a title="View Field Report Converted on Scribd" href="https://www.scribd.com/document/392826259/Field-Report-Converted#from_embed"  style="text-decoration: underline;">Field Report Converted</a> by <a title="View 's profile on Scribd" href="undefined#from_embed"  style="text-decoration: underline;"></a> on Scribd</p><iframe class="scribd_iframe_embed" title="Field Report Converted" src="https://www.scribd.com/embeds/392826259/content?start_page=1&view_mode=slideshow&show_recommendations=false&access_key=key-N2LE3d2BD4611sWzzGQO" data-auto-height="false" data-aspect-ratio="null"  width="400" height="600"></iframe> 
-     
-    <!-- Here is the HTML5 Validation Logo -->
-    <a href="http://www.w3.org/html/logo/">
-<img src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
-    </a>
 </div>
 
-     <!-- Added JQuery for future use in editting website -->
     <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
     <script src= 'js/main.js'></script>
 </body>
