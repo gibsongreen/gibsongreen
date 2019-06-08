@@ -4,13 +4,6 @@ body {
 .title {
   color: aliceblue;
 }
-#EducationalExperience {
-  padding: 10px 0px 10px 20px;
-     width: 1000px;
-     height: 425px;
-     text-align: justify;  
-     color: rgb(51, 51, 88);      
-}
 p{
   font-size: 16px;
   color: rgb(10, 10, 55);
@@ -19,39 +12,45 @@ h1{
   font-size: 24px;
   color: rgb(51, 51, 88);
 }
-#AboutMe {
-     padding: 10px 0px 10px 20px;
-     width: 1000px;
-     height: 925px;
-     text-align: justify;
-     font-size: 16;
-     color: rgb(51, 51, 88);
- }
- img {
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     float: left;
 }
+#AboutMe {
+     padding: 10px 0px 10px 20px;
+     width: 1350px;
+     height: 925px;
+     text-align: justify;
+     font-size: 16;
+     color: rgb(51, 51, 88);
+ }
+#EducationalExperience {
+  padding: 10px 0px 10px 20px;
+     width: 1350px;
+     height: 390px;
+     text-align: justify;  
+     color: rgb(51, 51, 88);      
+}
+#TopAccomplishments {
+     padding: 10px 300px 10px 20px;
+     width: 1350px;
+     height: 360px;
+     text-align: justify;
+     color: rgb(51, 51, 88);
+}
 #WorkSamples {
      padding: 10px 0px 10px 20px;
-     width: 1000px;
-     height: 1125px;
+     width: 1350px;
+     height: 1325px;
      text-align: justify;
      color: rgb(51, 51, 88);
 } 
-#TopAccomplishments {
-  
-  padding: 10px 300px 10px 20px;
-       width: 1000px;
-       height: 380px;
-       text-align: justify;
-       color: rgb(51, 51, 88);
-}
 #OtherProfiles {
   padding: 10px 300px 10px 20px;
      width: 1000px;
-     height: 5250px;
+     height: 525px;
      text-align: justify;
      color: rgb(51, 51, 88);
 }
