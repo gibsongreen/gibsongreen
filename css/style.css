@@ -5,7 +5,7 @@ body {
   color: aliceblue;
 }
 #EducationalExperience {
-  padding: 10px 0px 10px 200px;
+  padding: 10px 0px 10px 20px;
      width: 775px;
      height: 515px;
      text-align: justify;  
@@ -34,7 +34,7 @@ h1{
     float: left;
 }
 #WorkSamples {
-     padding: 10px 0px 10px 120px;
+     padding: 10px 0px 10px 20px;
      width: 1000px;
      height: 1000px;
      text-align: justify;
@@ -42,14 +42,14 @@ h1{
 } 
 #TopAccomplishments {
   
-  padding: 10px 300px 10px 400px;
+  padding: 10px 300px 10px 20px;
        width: 535px;
        height: 450px;
        text-align: justify;
        color: rgb(51, 51, 88);
 }
 #OtherProfiles {
-  padding: 10px 300px 10px 400px;
+  padding: 10px 300px 10px 20px;
      width: 600px;
      height: 450px;
      text-align: justify;
