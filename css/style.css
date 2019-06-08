@@ -5,7 +5,7 @@ body {
   color: aliceblue;
 }
 #EducationalExperience {
-  padding: 10px 300px 10px 400px;
+  padding: 10px 200px 10px 200px;
      width: 775px;
      height: 515px;
      text-align: justify;  
@@ -20,10 +20,11 @@ h1{
   color: rgb(51, 51, 88);
 }
 #AboutMe {
-     padding: 10px 300px 10px 400px;
-     width: 800px;
-     height: 625px;
+     padding: 10px 0px 10px 20px;
+     width: 1500px;
+     height: 925px;
      text-align: justify;
+     font-size: 16;
      color: rgb(51, 51, 88);
  }
  img {
@@ -33,9 +34,9 @@ h1{
     float: left;
 }
 #WorkSamples {
-     padding: 10px 300px 10px 400px;
-     width: 457px;
-     height: 415px;
+     padding: 10px 700px 10px 700px;
+     width: 1000px;
+     height: 1000px;
      text-align: justify;
      color: rgb(51, 51, 88);
 } 
@@ -43,14 +44,14 @@ h1{
   
   padding: 10px 300px 10px 400px;
        width: 535px;
-       height: 225px;
+       height: 450px;
        text-align: justify;
        color: rgb(51, 51, 88);
 }
 #OtherProfiles {
   padding: 10px 300px 10px 400px;
-     width: 550px;
-     height: 150px;
+     width: 600px;
+     height: 450px;
      text-align: justify;
      color: rgb(51, 51, 88);
 }
@@ -59,6 +60,7 @@ h1{
   overflow: hidden;
   border: 1px solid black;
   background-color: lightsteelblue;
+  float: 10px;
 }
 
 /* Style the buttons inside the tab */
@@ -67,6 +69,7 @@ h1{
   float: left;
   border: none;
   outline: none;
+  color: dimgray;
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
@@ -90,7 +93,7 @@ h1{
   border: 1px solid #ccc;
   border-top: none;
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
-  /* Go from zero to full opacity */
+/* Go from zero to full opacity */
 @keyframes fadeEffect {
   from {opacity: 0;}
   to {opacity: 1;}
@@ -98,13 +101,13 @@ h1{
 }
 .dropbtn {
   background-color: lightsteelblue;
-  color: white;
+  color: whitesmoke;
   padding: 8px;
-  font-size: 12px;
+  font-size: 19px;
   border: none;
 }
 .dropdown:hover {
-  background-color: rgb(150, 176, 209);
+  background-color: rgb(114, 157, 214);
 }
 
 .dropdown {
@@ -115,7 +118,7 @@ h1{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: lightsteelgrey;
   min-width: 160px;
   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -128,9 +131,22 @@ h1{
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color:rgb(206, 221, 240);}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: rgb(128, 150, 179);}
+.dropdown:hover .dropbtn {background-color: rgb(132, 174, 230)}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+table#t01 {
+  width: 100%;    
+  background-color: #f1f1c1;
+}
 
