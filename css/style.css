@@ -6,8 +6,8 @@ body {
 }
 #EducationalExperience {
   padding: 10px 0px 10px 20px;
-     width: 775px;
-     height: 515px;
+     width: 1000px;
+     height: 425px;
      text-align: justify;  
      color: rgb(51, 51, 88);      
 }
@@ -20,8 +20,8 @@ h1{
   color: rgb(51, 51, 88);
 }
 #AboutMe {
-     padding: 10px 0px 10px 120px;
-     width: 1500px;
+     padding: 10px 0px 10px 20px;
+     width: 1000px;
      height: 925px;
      text-align: justify;
      font-size: 16;
@@ -36,22 +36,22 @@ h1{
 #WorkSamples {
      padding: 10px 0px 10px 20px;
      width: 1000px;
-     height: 1000px;
+     height: 1125px;
      text-align: justify;
      color: rgb(51, 51, 88);
 } 
 #TopAccomplishments {
   
   padding: 10px 300px 10px 20px;
-       width: 535px;
-       height: 450px;
+       width: 1000px;
+       height: 380px;
        text-align: justify;
        color: rgb(51, 51, 88);
 }
 #OtherProfiles {
   padding: 10px 300px 10px 20px;
-     width: 600px;
-     height: 450px;
+     width: 1000px;
+     height: 5250px;
      text-align: justify;
      color: rgb(51, 51, 88);
 }
